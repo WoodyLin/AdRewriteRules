@@ -1,7 +1,6 @@
 if($request.url.indexOf('PackSourceEnum_FEED') != -1)
 {
-    let modifiedPath = '/';
-    $done({path : modifiedPath});
+    $done({path : '/'});
 }
 else{
     $done({});
