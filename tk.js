@@ -1,4 +1,8 @@
-
+if($request.url.indexOf('tos-cn-ve-51-alinc2') != -1)
  {
-     $done({path : '/'});
+     let modifiedPath = '/';
+     $done({path : modifiedPath});
  }
+ else{
+     $done({});
+}
